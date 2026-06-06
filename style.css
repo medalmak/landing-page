@@ -87,7 +87,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .title-section-2 {
@@ -106,11 +106,45 @@ body {
 }
 
 .description-image-section-2 {
-    width: 180px;
+    width: 170px;
     text-align: center;
     margin-top: 10px;
 }
 
 .image-section-2 {
     border-radius: 15px;
+}
+
+/* *** SECTION THREE *** */
+
+.section-3 {
+    background-color: #e5e7eb;
+    padding: 10% 20%;
+}
+
+.quote-section-3 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+cite {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+}
+
+.cite-section-3 {
+    text-align: right;
+}
+
+.cite-container-section-3 {
+    width: 93%;
+    margin-top: 30px;
 }
